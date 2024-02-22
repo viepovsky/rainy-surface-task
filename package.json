@@ -1,8 +1,8 @@
 {
   "name": "rainy-surface-task",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
-  "author": "",
+  "author": "viepovsky",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -58,7 +58,7 @@
       "json",
       "ts"
     ],
-    "rootDir": "src",
+    "rootDir": ".",
     "testRegex": ".*\\.spec\\.ts$",
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"
