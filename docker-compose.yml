@@ -1,0 +1,14 @@
+services:
+  rainfall_app:
+    container_name: rainfall-app
+    image: viepovsky/rainfall-app:1.0.0
+    build: .
+    ports:
+      - 3000:3000
+    networks:
+      - rainfall_network
+    restart: unless-stopped
+    
+networks:
+  rainfall_network:
+    driver: bridge
