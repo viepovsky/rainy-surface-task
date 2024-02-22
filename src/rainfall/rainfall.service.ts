@@ -1,8 +1,9 @@
 import { Injectable } from '@nestjs/common';
+import { RainSurfaceDTO } from './rain.surface.dto';
 
 @Injectable()
 export class RainfallService {
-    calculateRainTiles(numbers: number[]): number {
-        return numbers.length;
+    calculateRainTiles(rainSurface: RainSurfaceDTO): number {
+        return rainSurface.numbers.length;
     }
 }
