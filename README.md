@@ -34,4 +34,13 @@ To use the application, you need to make a POST request to `http://localhost:300
 }
 ```
 
+## Example
+
+### Response for valid input:
+
+![valid_request.JPG](readme-ss%2Fvalid_request.JPG)
+
+### Response for invalid input:
+
+![invalid_request.JPG](readme-ss%2Fbad_request.JPG)
 
