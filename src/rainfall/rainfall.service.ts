@@ -23,7 +23,7 @@ export class RainfallService {
             right[i] = Math.max(right[i + 1], numbers[i]);
         }
 
-        for (let i = 0; i < nLength; i++) {
+        for (let i = 1; i < nLength - 1; i++) {
             rainSum += Math.min(left[i], right[i]) - numbers[i];
         }
 
